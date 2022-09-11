@@ -1,0 +1,38 @@
+{
+  "name": "project-dicoding-2",
+  "version": "1.0.0",
+  "description": "this for dicoding submision",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config webpack.dev.js --open",
+    "export": "",
+    "serve": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alifprihantoro/project-dicoding-2.git"
+  },
+  "author": "alifprihantoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alifprihantoro/project-dicoding-2/issues"
+  },
+  "homepage": "https://github.com/alifprihantoro/project-dicoding-2#readme",
+  "devDependencies": {
+    "html-loader": "^4.1.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^4.11.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^2.0.0"
+  }
+}
