@@ -1,5 +1,12 @@
-// import { data } from "./data";
-
+/**
+ * accordion
+ *
+ * need :
+ * @param name: title, id unique, and title;
+ * @param data: array object for list ex : [ { judul<string>,content<string> } ];
+ *
+ * this component from bootstrap
+ */
 export default function accordion(name,data) {
   return `
     <h2>${name}</h2>

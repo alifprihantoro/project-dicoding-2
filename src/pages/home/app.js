@@ -4,8 +4,9 @@ import headerHome from "../../component/header";
 import accordion from "../../component/accorion";
 import { data_feature } from "../../component/data/feature";
 import { data_tutorial } from "../../component/data/tutorial";
+import myEvent from "../../component/event/home";
 
-// add element to content
+// add component to content
 class Content extends HTMLElement {
   connectedCallback() {
     this.innerHTML =
@@ -14,10 +15,7 @@ class Content extends HTMLElement {
       accordion("Tutorial", data_tutorial);
   }
 }
-
 customElements.define("my-content", Content);
 
-const start_now = document.getElementById("start-now");
-start_now.addEventListener("click", () => {
-  console.log("hello klick");
-});
+// add event to content
+myEvent()
