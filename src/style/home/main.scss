@@ -1,0 +1,7 @@
+@use 'bootstrap/scss/bootstrap';
+@use './var.scss' as *;
+
+.accordion-body{
+  background-color: $cl2;
+  color:#fff;
+}
