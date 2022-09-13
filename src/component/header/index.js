@@ -6,9 +6,8 @@ export default function headerHome() {
     </div>
     <div>
       <button type="button" id='start-now' class="btn btn-success">Start Now!</button>
-      <button type="button" class="btn btn-secondary">Download!</button>
-      <button type="button" class="btn btn-secondary">Documentation</button>
-      <button type="button" class="btn btn-secondary">Pricing</button>
+      <button type="button" id='download-home' class="btn btn-secondary">Download!</button>
+      <button type="button" id='tutorial-home-btn' class="btn btn-secondary">Documentation</button>
     </div>
   `
 }

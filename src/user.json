@@ -1,0 +1,23 @@
+{
+  "social_media": {
+    "twitter": ["username"],
+    "fb": ["username"],
+    "ig": ["username"],
+    "github": ["username"],
+    "gitlab": ["username"],
+    "bitbucket": ["username"]
+  },
+  "certificate": [
+    {
+      "data": "data contoh di linkedin"
+    }
+  ],
+  "pendidikan": [
+    {
+      "name": "name of school",
+      "masuk": "tanggal masuk",
+      "lulus": "tahun lulus",
+      "jurusan": "jurusan"
+    }
+  ]
+}
