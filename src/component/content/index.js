@@ -1,19 +1,11 @@
-import defaultInfo from "./info/short";
-
-class Content extends HTMLElement {
-  connectedCallback() {
-    this.user = this.getAttribute("user") || "";
-    defaultInfo(this.user, this);
-    this.render();
-  }
-
-  render() {
-    this.innerHTML = `
-    <div class="spinner-border" role="status">
-      <span class="visually-hidden">Loading...</span>
-    </div>
-`;
-  }
+import getMyProfile from "../../service/myprofile";
+export default async function defaultInfo(user, el) {
+  const getData = await getMyProfile(user);
+  const { data } = getData;
+  console.log(data)
+  el.innerHTML = `
+  <img class='img-profile' src='${data.avatar_url}' />
+  <h2>Info :</h2>
+  nama : ${data.name}
+  `;
 }
-
-customElements.define("my-content", Content);

@@ -37,6 +37,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "clean-webpack-plugin": "^2.0.0"
+    "clean-webpack-plugin": "^2.0.0",
+    "jspdf": "^2.5.1"
   }
 }
