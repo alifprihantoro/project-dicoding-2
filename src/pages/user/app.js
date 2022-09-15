@@ -6,4 +6,6 @@ cv_el.innerHTML = `
 `;
 const get_link = window.location.href;
 const username = get_link.split("?")[1];
-defaultInfo(username, cv_el);
+username == undefined
+  ? (cv_el.innerHTML = "masukkan username dengan benar")
+  : defaultInfo(username, cv_el);
