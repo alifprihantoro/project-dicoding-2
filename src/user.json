@@ -1,15 +1,31 @@
 {
   "social_media": {
-    "twitter": ["username"],
-    "fb": ["username"],
-    "ig": ["username"],
-    "github": ["username"],
-    "gitlab": ["username"],
-    "bitbucket": ["username"]
+    "twitter": ["alifprihantoro", "alifmuryp"],
+    "facebook": ["alifprihantoro", "alifmuryp"],
+    "instagram": ["alifprihantoro", "alifmuryp"],
+    "github": ["alifprihantoro", "alifmuryp"]
   },
+  "extends_links": {
+    "gitlab": {
+      "icon": "ant-design:gitlab-filled",
+      "link": "https://gitlab.com/alifprihantoro"
+    },
+    "web": {
+      "icon": "iconoir:www",
+      "link": "https://muryp.my.id"
+    }
+  },
+  "tech_stack": ["javascript","css","typescript","tailwind","sass","react","nextjs","html","bash","vim","figma","hugo"],
   "certificate": [
     {
-      "data": "data contoh di linkedin"
+      "image": "./certificate/front.png",
+      "title": "Learn something",
+      "institute": "name of institute give you certivicate",
+      "from": "jun-2022",
+      "current": false,
+      "to": "jun-2023",
+      "id": "id certivicate",
+      "url": "url certivicate"
     }
   ],
   "pendidikan": [
@@ -19,5 +35,21 @@
       "lulus": "tahun lulus",
       "jurusan": "jurusan"
     }
-  ]
+  ],
+  "position_now": [
+    {
+      "company": "name of company",
+      "job": "job description",
+      "start": "start work"
+    }
+  ],
+  "position_past": [
+    {
+      "company": "name of company",
+      "job": "job description",
+      "start": "start work",
+      "out": "out from work"
+    }
+  ],
+  "project": ["user/name-repo", "name-repo"]
 }

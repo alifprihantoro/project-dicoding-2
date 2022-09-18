@@ -4,8 +4,7 @@ export default function btnBootstrap(link, text, icon) {
       class="btn btn-primary"
       href="${link}"
       role="button">
-      sdaf
-      ${icon == "" ? "" : `<iconify-icon icon="${icon}"/>`}
+      ${icon == "" ? "" : `<iconify-icon icon="${icon}"></iconify-icon>`}
       ${text}
     </a>
   `;
