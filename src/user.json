@@ -15,41 +15,89 @@
       "link": "https://muryp.my.id"
     }
   },
-  "tech_stack": ["javascript","css","typescript","tailwind","sass","react","nextjs","html","bash","vim","figma","hugo"],
+  "tech_stack": [
+    "javascript",
+    "css",
+    "typescript",
+    "tailwind",
+    "sass",
+    "react",
+    "nextjs",
+    "html",
+    "bash",
+    "vim",
+    "figma",
+    "hugo"
+  ],
   "certificate": [
     {
-      "image": "./certificate/front.png",
-      "title": "Learn something",
-      "institute": "name of institute give you certivicate",
-      "from": "jun-2022",
+      "title": "Front End Development Libraries",
+      "institute": "freeCodeCamp",
+      "from": "Jul 2022",
       "current": false,
-      "to": "jun-2023",
-      "id": "id certivicate",
-      "url": "url certivicate"
-    }
-  ],
-  "pendidikan": [
+      "to": null,
+      "id": null,
+      "url": "https://freecodecamp.org/certification/alifmuryp/front-end-development-libraries"
+    },
     {
-      "name": "name of school",
-      "masuk": "tanggal masuk",
-      "lulus": "tahun lulus",
-      "jurusan": "jurusan"
-    }
-  ],
-  "position_now": [
+      "title": "JavaScript Algorithms and Data Structures",
+      "institute": "freeCodeCamp",
+      "from": "Jul 2022",
+      "current": false,
+      "to": null,
+      "id": null,
+      "url": "https://freecodecamp.org/certification/alifmuryp/javascript-algorithms-and-data-structures"
+    },
     {
-      "company": "name of company",
-      "job": "job description",
-      "start": "start work"
+      "title": "Belajar Dasar Pemrograman Web",
+      "institute": "Dicoding Indonesia",
+      "from": "Jun 2022",
+      "current": false,
+      "to": "Jun 2025",
+      "id": "6RPND1DWRZ2M",
+      "url": "https://www.dicoding.com/certificates/6RPND1DWRZ2M"
+    },
+    {
+      "title": "Belajar Membuat Front-End Web untuk Pemula",
+      "institute": "Dicoding Indonesia",
+      "from": "Jun 2022",
+      "current": false,
+      "to": "Jun 2025",
+      "id": "4EXG5Q5NEXRL",
+      "url": "https://www.dicoding.com/certificates/4EXG5Q5NEXRL"
     }
   ],
+  "education": [
+    {
+      "name": "SMA N Tuntang",
+      "from": "2017",
+      "to": "2020",
+      "field_of_study": "Social Science",
+      "current": false
+    }
+  ],
+  "position_now": {
+    "company": "name of company",
+    "description": "job description",
+    "start": "start work"
+  },
   "position_past": [
     {
       "company": "name of company",
-      "job": "job description",
+      "description": "job description",
+      "start": "start work",
+      "out": "out from work"
+    },
+    {
+      "company": "name of company 2",
+      "description": "job description",
       "start": "start work",
       "out": "out from work"
     }
   ],
-  "project": ["user/name-repo", "name-repo"]
+  "project": [
+    "muryp-new",
+    "serabi-v3",
+    "freecode-camp"
+  ]
 }

@@ -13,12 +13,12 @@ module.exports = merge(common, {
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "./src/pages/home/template.html",
-      chunks: ["home","bootstrap"],
+      chunks: ["bootstrap","home"],
     }),
     new HtmlWebpackPlugin({
       filename: "./user/index.html",
       template: "./src/pages/user/template.html",
-      chunks: ["user"],
+      chunks: ["bootstrap","user"],
     }),
   ],
   module: {
