@@ -9,14 +9,13 @@ import myEvent from "../../component/event/home";
 // add component to content
 class Content extends HTMLElement {
   connectedCallback() {
-    console.log(this.innerHTML)
     this.innerHTML =
       headerHome() +
       accordion("Feature", data_feature) +
       accordion("Tutorial", data_tutorial);
 
     // add event to content
-    myEvent()
+    myEvent();
   }
 }
 customElements.define("my-content", Content);
