@@ -1,0 +1,42 @@
+// get font
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Pacifico&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+h2 {
+  font-family: "Pacifico", cursive;
+  color: rgb(10 64 144);
+  margin-left:.8rem;
+}
+h3 {
+  font-weight: 400;
+}
+// cv style custom
+#cv {
+  max-width: 1080px;
+  margin: auto;
+  background: rgb(13 110 253 / 21%);
+  padding: 1rem;
+  .d-flex {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  a {
+    margin: 0.5rem 0.1rem;
+  }
+  .img-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  .list-group-item,
+  .card {
+    background: rgb(13 110 253 / 15%);
+    color: rgb(13 110 253);
+  }
+  h4,
+  h5 {
+    color: rgb(10 64 144) !important;
+  }
+}
