@@ -1,4 +1,4 @@
-import btnBootstrap from "../bootstrap/btn";
+import btnBootstrap from "../../bootstrap/btn";
 
 /**
  * show data social media
@@ -14,21 +14,21 @@ import btnBootstrap from "../bootstrap/btn";
  * "github": ["username1", "username2"]
  * }
  */
-export default function socialMedia (social_media) {
+export default function socialMedia(social_media) {
   const sosmed_keys = Object.keys(social_media);
   const sosmed_bundle_html = sosmed_keys
     .map((sosmed_name) => {
       const sosmed_list_bundle_html = social_media[sosmed_name]
         .map((username) =>
-          btnBootstrap(
-            `https://${sosmed_name}.com/${username}`,
-            "@" + username,
-            `akar-icons:${sosmed_name}-fill`
-          )
+          btnBootstrap({
+            url: `https://${sosmed_name}.com/${username}`,
+            text: "@" + username,
+            icon: `akar-icons:${sosmed_name}-fill`,
+          })
         )
         .join("");
       return sosmed_list_bundle_html;
     })
     .join("");
   return sosmed_bundle_html;
-};
+}

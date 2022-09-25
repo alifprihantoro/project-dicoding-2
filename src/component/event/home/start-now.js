@@ -3,7 +3,6 @@ import data_usr from "../../../user.json";
 export default function eventStartNowHomeBtn() {
   const popup = document.getElementById("popup");
   const string_data = JSON.stringify(data_usr);
-  console.log(string_data);
   popup.innerHTML = `
   <div>
     <h2>create your CV</h2>

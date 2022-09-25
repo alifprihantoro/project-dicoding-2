@@ -1,7 +1,7 @@
 import cardBootstrap from "../bootstrap/card";
 
 /**
- * show data credential
+ * bundle data credential <html>
  *
  * need :
  * @param data: data credential;
@@ -28,9 +28,11 @@ import cardBootstrap from "../bootstrap/card";
  *   }
  * ]
  */
-export default function credentialBtn(data) {
-  return data.map((e) => {
-    const content = `
+export default function credentialList(data) {
+  const title = "<h2>Credential or Certivicate</h2>";
+  const bundle_card = data
+    .map((e) => {
+      const content = `
         <h3 class="card-title">${e.title}</h3>
         <h4 class="card-subtitle mb-2 text-muted">${e.institute}</h4>
         <h5 class="card-subtitle mb-2 text-muted">${
@@ -41,6 +43,9 @@ export default function credentialBtn(data) {
         }</h4>
         <a href="${e.url}" class="card-link">Show credential</a>
     `;
-    return cardBootstrap(content);
-  });
+      return cardBootstrap(content);
+    })
+    .join("");
+  const bundle = title + `<div class='d-flex'>` + bundle_card + `</div>`;
+  return bundle;
 }

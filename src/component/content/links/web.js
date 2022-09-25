@@ -1,7 +1,7 @@
-import btnBootstrap from "../bootstrap/btn";
+import btnBootstrap from "../../bootstrap/btn";
 
 /**
- * show extend links 
+ * show extend links
  *
  * need :
  * @param link: data extend links;
@@ -24,7 +24,11 @@ export default function linkWeb(link) {
   const bundle_link_html = links_name
     .map((name_web) => {
       const prop = link[name_web];
-      return btnBootstrap(prop.link, name_web, prop.icon);
+      return btnBootstrap({
+        url: prop.link,
+        text: name_web,
+        icon: prop.icon,
+      });
     })
     .join("");
   return bundle_link_html;
