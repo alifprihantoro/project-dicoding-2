@@ -4,10 +4,6 @@ export const data_feature = [
     content: "Show you Portfolio into world",
   },
   {
-    judul: "Convert into pdf,png,html,etc",
-    content: "Download your Portfolio into pdf, jpg, png, and html",
-  },
-  {
     judul: "Easy Use",
     content: "You just edit what you need to show into world",
   },

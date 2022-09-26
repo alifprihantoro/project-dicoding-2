@@ -1,21 +1,16 @@
 /**
- * accordion
+ * loop list
  *
  * need :
  * @param name: title, id unique, and title;
  * @param data: array object for list ex : [ { judul<string>,content<string> } ];
- *
- * this component from bootstrap
  */
-export default function accordion(name,data) {
-  return `
-    <h2 id='${name}'>${name}</h2>
-    <div class="accordion" id="${name}">
-      ${data
-        .map((e, i) => {
-          return `
+export default function loopListAccordion(name, data) {
+  const result = data
+    .map((e, i) => {
+      return `
       <div class="accordion-item">
-        <h2 class="accordion-header" id="${name}-${i}">
+        <h3 class="accordion-header" id="${name}-${i}">
           <button
             class="accordion-button${i > 0 ? " collapsed" : ""}"
             type="button"
@@ -26,7 +21,7 @@ export default function accordion(name,data) {
           >
             ${e.judul}
           </button>
-        </h2>
+        </h3>
         <div
           id="collapse-${name}-${i}"
           class="accordion-collapse collapse${i == 0 ? " show" : ""}"
@@ -39,8 +34,7 @@ export default function accordion(name,data) {
         </div>
       </div>
     `;
-        })
-        .join("")}
-    </div>
-  `;
+    })
+    .join("");
+  return result;
 }

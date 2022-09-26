@@ -1,18 +1,18 @@
 export const data = [
   {
-    nama: "tes aku w",
-    link: "/tes",
+    nama: "Home",
+    link: "/",
   },
   {
-    nama: "tes1",
-    link: "/tes1",
+    nama: "About",
+    link: "https://github.com/alifprihantoro",
   },
   {
-    nama: "tes2",
-    link: "/tes2",
+    nama: "Contact",
+    link: "https://muryp.my.id/#contact",
   },
   {
-    nama: "tes3",
-    link: "/tes3",
+    nama: "Documentation",
+    link: "#Tutorial",
   },
 ];

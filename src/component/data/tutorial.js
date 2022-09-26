@@ -2,16 +2,16 @@ import myJson from "../myJson";
 export const data_tutorial = [
   {
     judul: "Change this json",
-    content: myJson,
+    content: myJson(),
   },
   {
-    judul: "Paste into this website or your github profile",
+    judul: "Paste into your github profile",
     content:
-      "if you just one time you can just pase into text area, but if you want online please create json file in your github profile (github.com/<username>/<username>).",
+      "create json file in your github profile <code>github.com/&lt;username&gt;/&lt;username&gt;</code>. on folder <code>./muryp_data/usr.json</code>",
   },
   {
-    judul: "Download",
-    content: `klick download and open your in local.
+    judul: "Generate",
+    content: `generate your profile and share into your friend.
     <br> 
     <div class="alert alert-primary" role="alert">
     If have problem contact me in <a href='https://muryp.my.id/#contact'>here</a>!
