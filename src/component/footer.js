@@ -1,4 +1,6 @@
-// add component to content
+/**
+ * component footer home
+ */
 class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `

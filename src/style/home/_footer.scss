@@ -1,0 +1,12 @@
+@use "./var.scss" as *;
+
+footer {
+  max-width: 980px;
+  margin: auto;
+  background: $cl1;
+  border-radius: 5px 5px 0 0;
+  p,
+  a {
+    color: #fff;
+  }
+}

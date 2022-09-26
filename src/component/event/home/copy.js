@@ -1,3 +1,6 @@
+/**
+ * copy function for copy json
+ */
 export default function copyTextTutorial() {
     const copyBtn = document.getElementById("copyBtn");
     const copyText = document.getElementById("copyText");

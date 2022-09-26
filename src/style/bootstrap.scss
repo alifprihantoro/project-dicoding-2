@@ -1,1 +1,6 @@
 @use 'bootstrap/scss/bootstrap';
+// get font
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Pacifico&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
+}

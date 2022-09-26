@@ -1,0 +1,10 @@
+@use "./var.scss" as *;
+
+.accordion-body {
+  background-color: $accordion ;
+  color: #fff;
+  .btn-primary,
+  .input-group-text {
+    background: $cl1;
+  }
+}

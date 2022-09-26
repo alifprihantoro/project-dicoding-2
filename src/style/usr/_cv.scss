@@ -1,0 +1,29 @@
+// cv style custom
+#cv {
+  width: 100vw;
+  margin: auto;
+  background: #cbe0ff;
+  padding: 1rem;
+  .d-flex {
+    display: inline-flex !important;
+    flex-wrap: wrap;
+  }
+  a {
+    margin: 0.5rem 0.1rem;
+  }
+  .img-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  .list-group-item,
+  .card {
+    background: rgb(13 110 253 / 15%);
+    color: rgb(13 110 253);
+  }
+  h4,
+  h5 {
+    color: rgb(10 64 144) !important;
+  }
+}

@@ -4,9 +4,9 @@ import headerHome from "../../component/header";
 import accordion from "../../component/bootstrap/accordion";
 import { data_feature } from "../../component/data/feature";
 import { data_tutorial } from "../../component/data/tutorial";
-import myEvent from "../../component/event/home";
 import copyTextTutorial from "../../component/event/home/copy";
 import '../../component/footer'
+import '../../component/findUsername'
 
 // add component to content
 class Content extends HTMLElement {
@@ -17,7 +17,7 @@ class Content extends HTMLElement {
       accordion("Tutorial", data_tutorial);
 
     // add event to content
-    myEvent();
+    // myEvent();
     copyTextTutorial()
   }
 }

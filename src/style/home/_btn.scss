@@ -1,0 +1,12 @@
+@use "./var.scss" as *;
+
+a.primary2 {
+  background: $cl2;
+}
+span.input-group-text {
+  background-color: $cl1;
+  color: #fff;
+}
+button.btn-primary {
+  background: $cl1;
+}

@@ -1,0 +1,12 @@
+@use "./var.scss" as *;
+
+nav.bg-primary {
+  background: $cl3 !important;
+}
+.navbar {
+  max-width: 980px;
+  margin: auto;
+  a {
+    color: #fff;
+  }
+}

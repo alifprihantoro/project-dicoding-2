@@ -20,9 +20,23 @@ import githubInfo from "./github";
 export default async function defaultInfo(user, el) {
   // get data from gihub api profile user
   const getDataGithub = await getMyProfile(user);
+  // if user not found
+  if (getDataGithub == "error") {
+    const title = "User Not found";
+    el.innerHTML = `<h3>${title}</h3><find-user></find-user>`;
+    document.title = title;
+    return;
+  }
   const data_github = getDataGithub.data;
   // get data from repo file
   const getDetailData = await getDataUsrDetail(user);
+  // if user not have json data
+  if (getDetailData.response?.status == 404) {
+    const title = "Data user not found";
+    el.innerHTML = `<h3>${title}</h3><find-user></find-user>`;
+    document.title = title;
+    return;
+  }
   // extract data
   const {
     tech_stack,

@@ -1,5 +1,6 @@
 import defaultInfo from "../../component/content";
 import "../../style/usr/main.scss";
+import "../../component/findUsername";
 
 const cv_el = document.getElementById("cv");
 cv_el.innerHTML = `
@@ -9,7 +10,11 @@ cv_el.innerHTML = `
 `;
 const get_link = window.location.href;
 const username = get_link.split("?")[1];
-username == undefined
-  ? (cv_el.innerHTML = "masukkan username dengan benar")
-  : defaultInfo(username, cv_el);
-
+if (username == undefined) {
+  const title = "User Not found";
+  cv_el.innerHTML = `<h3>${title}</h3><find-user></find-user>`;
+  document.title = title;
+} else {
+  document.title = username;
+  defaultInfo(username, cv_el);
+}

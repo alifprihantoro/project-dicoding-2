@@ -1,0 +1,18 @@
+@use "./var.scss" as *;
+
+.cover {
+  background: $cover;
+  padding: 0 2rem 2rem 2rem;
+  max-width: 100%;
+  margin: auto;
+  code {
+    color:#fff;
+    background: $cl1;
+    padding: .3rem;
+    border-radius: .3rem;
+  }
+  .d-flex {
+    display: inline-flex !important;
+    flex-wrap: wrap;
+  }
+}

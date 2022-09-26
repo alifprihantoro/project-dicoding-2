@@ -1,0 +1,12 @@
+@use "./var.scss" as *;
+
+a.navbar-brand,
+h2 {
+  font-family: "Pacifico", cursive;
+  color:$cl1 ;
+  margin-left: 0.8rem;
+  margin-top:1rem !important;
+}
+h3 {
+  font-weight: 400;
+}

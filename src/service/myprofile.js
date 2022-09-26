@@ -9,6 +9,6 @@ export default async function getMyProfile(user) {
     return response;
   }
   catch (error) {
-    return error;
+    return 'error';
   }
 }

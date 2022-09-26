@@ -1,67 +1,7 @@
-@use "./var.scss" as *;
-
-// get font
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Pacifico&display=swap");
-* {
-  font-family: "Josefin Sans", sans-serif;
-}
-
-a.navbar-brand,
-h2 {
-  font-family: "Pacifico", cursive;
-  color: rgb(10 64 144);
-  margin-left: 0.8rem;
-}
-h3 {
-  font-weight: 400;
-}
-.accordion-body {
-  background-color: $cl2;
-  color: #fff;
-}
-.cover {
-  background: #cbe0ff;
-  padding: 0 2rem;
-  max-width: 100%;
-  margin: auto;
-}
-.navbar {
-  max-width: 980px;
-  margin: auto;
-  a {
-    color: #fff;
-  }
-}
-a.primary2 {
-  background: #4472b6;
-}
-span.input-group-text {
-  background-color: rgb(10 64 144);
-  color: #fff;
-}
-.cover {
-  code {
-    color: rgb(2 46 111);
-  }
-  .d-flex {
-    display: inline-flex !important;
-    flex-wrap: wrap;
-  }
-}
-footer {
-  max-width: 980px;
-  margin: auto;
-  background: rgb(10, 64, 144);
-  border-radius: 5px 5px 0 0;
-  p,a{
-    color: #fff;
-  }
-}
-@media only screen and (min-width: 980px) {
-  .cover {
-    max-width: 980px;
-  }
-  .left-header {
-    max-width: 50%;
-  }
-}
+@use "./font";
+@use "./accordion";
+@use "./cover";
+@use "./nav";
+@use "./btn";
+@use "./footer";
+@use "./desktop";

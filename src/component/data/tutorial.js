@@ -13,6 +13,7 @@ export const data_tutorial = [
     judul: "Generate",
     content: `generate your profile and share into your friend.
     <br> 
+    <find-user></find-user>
     <div class="alert alert-primary" role="alert">
     If have problem contact me in <a href='https://muryp.my.id/#contact'>here</a>!
     </div>
