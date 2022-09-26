@@ -13,12 +13,12 @@ h3 {
 }
 // cv style custom
 #cv {
-  max-width: 1080px;
+  width: 100vw;
   margin: auto;
-  background: rgb(13 110 253 / 21%);
+  background: #cbe0ff;
   padding: 1rem;
   .d-flex {
-    display: inline-flex;
+    display: inline-flex !important;
     flex-wrap: wrap;
   }
   a {
@@ -38,5 +38,10 @@ h3 {
   h4,
   h5 {
     color: rgb(10 64 144) !important;
+  }
+}
+@media only screen and (min-width: 980px) {
+  #cv {
+  max-width: 980px;
   }
 }

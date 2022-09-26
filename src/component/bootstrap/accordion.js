@@ -9,7 +9,7 @@
  */
 export default function accordion(name,data) {
   return `
-    <h2>${name}</h2>
+    <h2 id='${name}'>${name}</h2>
     <div class="accordion" id="${name}">
       ${data
         .map((e, i) => {

@@ -1,7 +1,8 @@
+import myJson from "../myJson";
 export const data_tutorial = [
   {
     judul: "Change this json",
-    content: "this json",
+    content: myJson,
   },
   {
     judul: "Paste into this website or your github profile",

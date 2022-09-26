@@ -27,8 +27,8 @@ export default async function projectBundleHtml(datas,user) {
       } = await cekIsRepoOnly(data,user);
       const content = `
       <a href='${url}' ><h3 class="card-title">${name}</h3></a>
-      ${btnBootstrap({url:homepage, text:`homepage`})}
-      ${btnBootstrap({url:forks_url,text: `fork : ${forks_count}`})}
+      ${btnBootstrap({url:homepage, text:``,icon:'iconoir:www'})}
+      ${btnBootstrap({url:forks_url,text: `${forks_count}`,icon:'bx:git-repo-forked'})}
       ${btnBootstrap({url:"#", text:`lang : ${language}`})}
       ${btnBootstrap({url:issue_comment_url,text:`issue : ${open_issues_count}`})}
       ${btnBootstrap({url:`#`, text:`watch : ${watchers_count}`})}

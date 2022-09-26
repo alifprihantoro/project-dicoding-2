@@ -5,6 +5,7 @@ import accordion from "../../component/bootstrap/accordion";
 import { data_feature } from "../../component/data/feature";
 import { data_tutorial } from "../../component/data/tutorial";
 import myEvent from "../../component/event/home";
+import copyTextTutorial from "../../component/event/home/copy";
 
 // add component to content
 class Content extends HTMLElement {
@@ -16,6 +17,7 @@ class Content extends HTMLElement {
 
     // add event to content
     myEvent();
+    copyTextTutorial()
   }
 }
 customElements.define("my-content", Content);
